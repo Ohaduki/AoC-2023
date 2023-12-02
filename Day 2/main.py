@@ -1,4 +1,4 @@
-from game_check import check_game
+from power_check import power_check as check_game
 
 def main():
     with open("input.txt", "r") as f:
